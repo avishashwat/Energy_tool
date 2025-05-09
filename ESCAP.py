@@ -521,11 +521,11 @@ else:
                 base_path = os.path.join("Climate")
     
                 variable = st.selectbox("Select Climate Variable", [
-                    "Please select", "Maximum Temperature", "Mean Temperature", "Minimum Temperature", "Precipitation", "Solar Radiation"
+                    "Please select", "Maximum Temperature"
                 ], key="climate_var_sidebar")
     
                 scenario = st.selectbox("Select Scenario", [
-                    "Please select", "Historical", "SSP1", "SSP2", "SSP3", "SSP5"
+                    "Please select", "Historical", "SSP1"
                 ], key="climate_scenario_sidebar")
     
                 year_range = None
